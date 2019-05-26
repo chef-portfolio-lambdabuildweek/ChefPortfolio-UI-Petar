@@ -165,7 +165,10 @@ blockquote {
   line-height: 1.4;
 }
 cite {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+}
+small {
+  font-size: 1.3rem;
 }
 .wrapper {
   max-width: 900px;
@@ -259,4 +262,32 @@ header .main-image .buttons button {
 }
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
+}
+footer .row-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+footer .row-footer .row-inside-of-footer {
+  display: row;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+footer .row-footer .row-inside-of-footer .footer-nav {
+  display: inline-flex;
+  padding: 1.2rem;
+}
+footer .row-footer .row-inside-of-footer .footer-nav li a {
+  padding: 1.2rem;
+}
+footer .row-footer .row-inside-of-footer .social-links {
+  display: inline-flex;
+  padding: 1.2rem;
+}
+footer .row-footer .row-inside-of-footer .social-links li a {
+  padding: 1.2rem;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
 }
