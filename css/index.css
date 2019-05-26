@@ -263,29 +263,29 @@ header nav .logo img {
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
 }
-header nav {
+.navigation-for-about nav {
   display: flex;
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
 }
-header nav ul {
+.navigation-for-about nav ul {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem;
   font-size: 1.7rem;
   transition: transform 1s ease-in-out 0.5s;
 }
-header nav ul:hover {
+.navigation-for-about nav ul:hover {
   transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
-header nav ul a {
+.navigation-for-about nav ul a {
   padding: 1.2rem;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.7rem;
 }
-header nav .logo img {
+.navigation-for-about nav .logo img {
   border-radius: 30%;
   display: flex;
   justify-content: center;
@@ -320,4 +320,34 @@ footer .row-footer .row-inside-of-footer .social-links li a {
 .copyright {
   display: flex;
   justify-content: center;
+}
+.navigation-for-contact nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border: 0.2rem solid #34495e;
+}
+.navigation-for-contact nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+  transition: transform 1s ease-in-out 0.5s;
+}
+.navigation-for-contact nav ul:hover {
+  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+}
+.navigation-for-contact nav ul a {
+  padding: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.navigation-for-contact nav .logo img {
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
 }

@@ -1,0 +1,38 @@
+.navigation-for-contact {
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: @smallPadding;
+        border: @myBorder;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            padding: @mediumPadding;
+            font-size: @largeFontSize;
+            transition: transform 1s ease-in-out 0.5s;
+
+            &:hover {
+                transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+            }
+
+            a {
+                padding: @mediumPadding;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: @largeFontSize;
+            }
+        }
+
+        .logo img {
+            border-radius: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+}
