@@ -237,7 +237,19 @@ header .main-image .buttons button {
 }
 .home .features .inside-of-features {
   padding: 0.5rem;
+  width: 50%;
 }
 .home .features .inside-of-features p {
   padding-top: 1.2rem;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.testimonials .inside-of-testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 35%;
 }
