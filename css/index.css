@@ -170,10 +170,16 @@ header nav ul {
   justify-content: space-between;
   padding: 1.2rem;
   font-size: 2rem;
+  transition: transform 1s ease-in-out 0.5s;
+}
+header nav ul:hover {
+  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
 header nav ul a {
   padding: 1.2rem;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 header nav .logo img {
   border-radius: 30%;
