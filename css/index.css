@@ -145,23 +145,23 @@ h6 {
   font-family: 'Rubik', sans-serif;
 }
 h1 {
-  font-size: 2.9rem;
+  font-size: 3.4rem;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 3.1rem;
 }
 h3 {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 p {
   font-size: 1.8rem;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 blockquote {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.4;
 }
 .wrapper {
@@ -223,12 +223,21 @@ header .main-image .buttons button {
 .home {
   display: flex;
   flex-direction: column;
+  padding: 1.2rem;
 }
 .home .intro-to-features {
   display: flex;
   flex-direction: column;
+  padding: 1.2rem;
 }
 .home .features {
   display: flex;
   justify-content: space-evenly;
+  padding: 0.5rem;
+}
+.home .features .inside-of-features {
+  padding: 0.5rem;
+}
+.home .features .inside-of-features p {
+  padding-top: 1.2rem;
 }
