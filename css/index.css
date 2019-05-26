@@ -183,6 +183,11 @@ header nav ul a {
 }
 header nav .logo img {
   border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
 }
 header .main-banner {
   background: -webkit-linear-gradient(top, #2196F3, #2a5298);
