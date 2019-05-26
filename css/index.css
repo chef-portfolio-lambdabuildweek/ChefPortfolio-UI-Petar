@@ -215,9 +215,8 @@ header .main-image .buttons button {
   border-radius: 1.2rem;
   font-size: 1.7rem;
   padding: 0.5rem;
-  width: 90%;
-  background-color: #2196F3;
-  color: #000000;
+  background-color: #2a5298;
+  color: #ffb347;
   cursor: pointer;
   margin: 0.5em;
 }
