@@ -38,15 +38,25 @@ header {
 
 
 
+    .main-image {
+        position: relative;
 
-    .main-banner {
-        // background: linear-gradient(top, @light-blue, @deep-blue);
-      opacity: 0.8;
+        .buttons {
+            display: inline-flex;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 30%;
+            left: 15%;
 
-        // background-size: cover;
-        // background-position: center;
-        // background-attachment: fixed;
 
+            button {
+                .buttonParametric();
+                margin: 0.5em;
+
+
+            }
+        }
     }
+
 
 }

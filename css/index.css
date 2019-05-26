@@ -179,7 +179,7 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   transition: transform 1s ease-in-out 0.5s;
 }
 header nav ul:hover {
@@ -189,7 +189,7 @@ header nav ul a {
   padding: 1.2rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 header nav .logo img {
   border-radius: 30%;
@@ -199,6 +199,25 @@ header nav .logo img {
   width: 60px;
   height: 60px;
 }
-header .main-banner {
-  opacity: 0.8;
+header .main-image {
+  position: relative;
+}
+header .main-image .buttons {
+  display: inline-flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 30%;
+  left: 15%;
+}
+header .main-image .buttons button {
+  display: flex;
+  border: 0.2rem solid #34495e;
+  border-radius: 1.2rem;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  width: 90%;
+  background-color: #2196F3;
+  color: #000000;
+  cursor: pointer;
+  margin: 0.5em;
 }
