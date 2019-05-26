@@ -1,12 +1,21 @@
 
 .buttonParametric() {
-    display: flex;
-    border: @myBorder;
-    border-radius: @mediumPadding;
-    font-size: @largeFontSize;
-    padding: @smallPadding;
-    background-color: @deep-blue;
-    color: @pastel-orange;
-    cursor: pointer;
-      
+    
+        float: right;
+        border: 0;
+        background: #34495e;
+        color: #fff;
+        padding: @smallPadding @bigPadding;
+        border-radius: 5%;
+        cursor: pointer;
+        transition: 0.5s;
+        width: 50%;
+    
+       &:hover{
+        background: #2980b9;
+       }    
+ 
 }
+
+
+

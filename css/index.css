@@ -216,15 +216,19 @@ header nav .logo img {
   left: 15%;
 }
 .main-image .buttons button {
-  display: flex;
-  border: 0.2rem solid #34495e;
-  border-radius: 1.2rem;
-  font-size: 1.7rem;
-  padding: 0.5rem;
-  background-color: #2a5298;
-  color: #ffb347;
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 0.5rem 2.1rem;
+  border-radius: 5%;
   cursor: pointer;
+  transition: 0.5s;
+  width: 50%;
   margin: 0.5em;
+}
+.main-image .buttons button:hover {
+  background: #2980b9;
 }
 .home {
   display: flex;
