@@ -205,17 +205,17 @@ header nav .logo img {
   width: 60px;
   height: 60px;
 }
-header .main-image {
+.main-image {
   position: relative;
 }
-header .main-image .buttons {
+.main-image .buttons {
   display: inline-flex;
   justify-content: space-between;
   position: absolute;
   bottom: 30%;
   left: 15%;
 }
-header .main-image .buttons button {
+.main-image .buttons button {
   display: flex;
   border: 0.2rem solid #34495e;
   border-radius: 1.2rem;
@@ -262,6 +262,36 @@ header .main-image .buttons button {
 }
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border: 0.2rem solid #34495e;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+  transition: transform 1s ease-in-out 0.5s;
+}
+header nav ul:hover {
+  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+}
+header nav ul a {
+  padding: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+header nav .logo img {
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
 }
 footer .row-footer {
   display: flex;
