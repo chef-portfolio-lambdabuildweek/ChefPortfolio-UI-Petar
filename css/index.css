@@ -351,3 +351,52 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   width: 60px;
   height: 60px;
 }
+.contact-section {
+  background-image: url();
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-section span {
+  background-color: #dfe6e9;
+  color: #ddd;
+}
+.border {
+  width: 10%;
+  height: 10px;
+  background: #283E51;
+  margin: 2.5% auto;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 0.5rem;
+  overflow: hidden;
+}
+.contact-form-text {
+  display: flex;
+  width: 100%;
+  margin: 2.5% 0;
+  border: 0;
+  background: #dfe6e9;
+  padding: 2.1rem;
+  outline: none;
+  transition: 0.5s;
+}
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #283E51;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 0.5rem 2.1rem;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover {
+  background: #2980b9;
+}
