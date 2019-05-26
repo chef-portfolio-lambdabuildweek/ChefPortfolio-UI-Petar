@@ -162,6 +162,8 @@ p {
 header nav {
   display: flex;
   justify-content: space-around;
+  padding: 0.5rem;
+  border: 0.2rem solid #34495e;
 }
 header nav ul {
   display: flex;
@@ -170,7 +172,8 @@ header nav ul {
   font-size: 2rem;
 }
 header nav ul a {
-  padding: 2.1rem;
+  padding: 1.2rem;
+  text-decoration: none;
 }
 header nav .logo img {
   border-radius: 30%;
@@ -180,6 +183,6 @@ header .chef {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  width: 100%;
   background-attachment: fixed;
 }
