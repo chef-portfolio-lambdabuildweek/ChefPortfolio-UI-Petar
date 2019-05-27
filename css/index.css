@@ -193,6 +193,8 @@ header .primary-nav {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
+  background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
 }
 header .primary-nav ul {
   display: flex;
@@ -218,6 +220,7 @@ header .primary-nav .logo img {
   align-items: center;
   width: 60px;
   height: 60px;
+  box-shadow: #34495e 5px 5px 7px;
 }
 header .main-image {
   position: relative;
@@ -251,7 +254,7 @@ header .main-image .buttons button:hover {
 }
 .header-content h1 {
   -webkit-animation: pulsate 3s ease-in-out;
-  -webkit-animation-iteration-count: 5;
+  -webkit-animation-iteration-count: 10;
 }
 @-webkit-keyframes pulsate {
   0% {

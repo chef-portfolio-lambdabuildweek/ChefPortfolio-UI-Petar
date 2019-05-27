@@ -3,6 +3,9 @@ header {
         .flex-justify-content-spaceAround();
         padding: @smallPadding;
         border: @myBorder;
+        background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+        background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+        
 
         ul {
             display: flex;
@@ -10,6 +13,7 @@ header {
             padding: @mediumPadding;
             font-size: @largeFontSize;
             transition: transform 1s ease-in-out 0.5s;
+           
 
             &:hover {
                 transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
@@ -21,6 +25,7 @@ header {
                 text-transform: uppercase;
                 font-size: @largeFontSize;
                 font-weight: 500;
+                
             }
         }
 
@@ -31,6 +36,7 @@ header {
             align-items: center;
             width: 60px;
             height: 60px;
+            box-shadow: @amber 5px 5px 7px;
         }
 
     }
@@ -63,7 +69,7 @@ header {
  }
  h1 {
     -webkit-animation: pulsate 3s ease-in-out;
-	-webkit-animation-iteration-count: 5;
+	-webkit-animation-iteration-count: 10;
     // opacity: .3;
     
     @-webkit-keyframes pulsate {
