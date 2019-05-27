@@ -1,0 +1,24 @@
+{
+  "name": "chefportfolio-ui",
+  "version": "1.0.0",
+  "description": "UI repo for the Chef Portfolio build week project",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chef-portfolio-lambdabuildweek/ChefPortfolio-UI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chef-portfolio-lambdabuildweek/ChefPortfolio-UI/issues"
+  },
+  "homepage": "https://github.com/chef-portfolio-lambdabuildweek/ChefPortfolio-UI#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
