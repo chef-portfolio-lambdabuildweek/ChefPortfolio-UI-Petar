@@ -13,7 +13,9 @@ html {
 
 html,
 body {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', 'Arial', sans-serif;
+	font-weight: 300;
+	
 }
 
 
@@ -73,4 +75,25 @@ small{
 	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+
+
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: @turquoise;
+    border-bottom: @myBorder solid @pastel-orange;
+    // -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+
+
+a:hover,
+a:active {
+    color: @myBorder;
+    border-bottom: @myBorder solid;
 }
