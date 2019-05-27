@@ -226,7 +226,7 @@ header .main-image .buttons {
   display: inline-flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 30%;
+  bottom: 15%;
   left: 15%;
 }
 header .main-image .buttons button {
