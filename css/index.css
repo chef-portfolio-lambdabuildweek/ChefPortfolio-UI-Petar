@@ -239,6 +239,7 @@ header .main-image .buttons button {
   cursor: pointer;
   transition: 0.5s;
   width: 50%;
+  border-radius: 10%;
   margin: 0.5em;
 }
 header .main-image .buttons button:hover {
