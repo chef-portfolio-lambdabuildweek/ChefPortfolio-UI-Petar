@@ -12,10 +12,7 @@ function stickyNav() {
     wrapper.style.paddingTop = 0;
     nav.classList.remove('sticky');
     callToAction.style.display = 'none';
-
-
   }
 }
-
 
 window.addEventListener('scroll', stickyNav);

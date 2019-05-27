@@ -244,8 +244,13 @@ header .main-image .buttons button {
 header .main-image .buttons button:hover {
   background-color: #15cda8;
 }
+.header-content h1:first-line {
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
 .call-me {
-  right: 20px;
+  right: 1%;
+  font-weight: 400;
   display: none;
 }
 .sticky {
