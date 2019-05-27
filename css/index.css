@@ -289,6 +289,7 @@ header .main-image .buttons button:hover {
 .home .features {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 0.5rem;
 }
 .home .features .inside-of-features {
