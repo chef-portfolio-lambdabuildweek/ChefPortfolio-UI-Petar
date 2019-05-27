@@ -232,7 +232,7 @@ header .main-image .buttons {
 header .main-image .buttons button {
   float: right;
   border: 0;
-  background: #34495e;
+  background: #136a8a;
   color: #fff;
   padding: 0.5rem 2.1rem;
   border-radius: 5%;
@@ -242,7 +242,7 @@ header .main-image .buttons button {
   margin: 0.5em;
 }
 header .main-image .buttons button:hover {
-  background: #2980b9;
+  background-color: #15cda8;
 }
 .call-me {
   right: 20px;
