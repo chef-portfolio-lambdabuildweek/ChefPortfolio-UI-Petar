@@ -5,7 +5,7 @@ header {
         border: @myBorder;
         background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
         background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-        
+
 
         ul {
             display: flex;
@@ -13,7 +13,7 @@ header {
             padding: @mediumPadding;
             font-size: @largeFontSize;
             transition: transform 1s ease-in-out 0.5s;
-           
+
 
             &:hover {
                 transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
@@ -25,7 +25,7 @@ header {
                 text-transform: uppercase;
                 font-size: @largeFontSize;
                 font-weight: 500;
-                
+
             }
         }
 
@@ -61,30 +61,34 @@ header {
 }
 
 
-
-.header-content  {
- h1:first-line{
-    letter-spacing: 2px;
-    font-size: 1.3em;  
- }
- h1 {
-    -webkit-animation: pulsate 3s ease-in-out;
-	-webkit-animation-iteration-count: 10;
-    // opacity: .3;
-    
-    @-webkit-keyframes pulsate {
-        0% {
-            opacity: .3;
-        }
-        50% {
-            opacity: 1;
-        }
-        100% {
-            opacity: .3;
-        }
+.header-content {
+    h1:first-line {
+        letter-spacing: 2px;
+        font-size: 1.3em;
     }
-     
- }
+
+    h1 {
+        -webkit-animation: pulsate 3s ease-in-out;
+        -webkit-animation-iteration-count: 15;
+        -webkit-animation-direction: alternate-reverse;
+
+        // opacity: .3;
+
+        @-webkit-keyframes pulsate {
+            0% {
+                opacity: .3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: .3;
+            }
+        }
+
+    }
 
 }
 

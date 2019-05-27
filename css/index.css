@@ -235,7 +235,7 @@ header .main-image .buttons {
 header .main-image .buttons button {
   float: right;
   border: 0;
-  background: #136a8a;
+  background: #005C97;
   color: #fff;
   padding: 0.5rem 2.1rem;
   border-radius: 5%;
@@ -254,7 +254,8 @@ header .main-image .buttons button:hover {
 }
 .header-content h1 {
   -webkit-animation: pulsate 3s ease-in-out;
-  -webkit-animation-iteration-count: 10;
+  -webkit-animation-iteration-count: 15;
+  -webkit-animation-direction: alternate-reverse;
 }
 @-webkit-keyframes pulsate {
   0% {
