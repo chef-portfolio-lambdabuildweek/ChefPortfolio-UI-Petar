@@ -277,6 +277,7 @@ header nav .logo img {
   flex-direction: column;
   width: 35%;
   padding: 0.5rem;
+  font-style: italic;
 }
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
@@ -310,6 +311,33 @@ header nav .logo img {
   align-items: center;
   width: 60px;
   height: 60px;
+}
+.section-meals .meals-showcase1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-meals .meals-showcase2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-meals .meal-photo {
+  overflow: hidden;
+  background-color: #000;
+}
+.section-meals .meal-photo img {
+  opacity: 0.7;
+  height: auto;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.section-meals .meal-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 footer .row-footer {
   display: flex;
