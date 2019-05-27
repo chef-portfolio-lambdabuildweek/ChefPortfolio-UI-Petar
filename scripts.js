@@ -1,8 +1,6 @@
 const nav = document.querySelector('.primary-nav');
-const topToNav = nav.offsetTop;
 const wrapper = document.querySelector('.wrapper');
 const callToAction = document.querySelector('.call-me');
-
 function stickyNav() {
   if (window.scrollY >= 200) {
     wrapper.style.paddingTop = nav.offsetHeight;
@@ -16,3 +14,4 @@ function stickyNav() {
 }
 
 window.addEventListener('scroll', stickyNav);
+// const topToNav = nav.offsetTop;
