@@ -248,6 +248,22 @@ header .main-image .buttons button:hover {
   letter-spacing: 2px;
   font-size: 1.3em;
 }
+.header-content h1 {
+  -webkit-animation: pulsate 3s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.3;
+}
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
 .call-me {
   right: 1%;
   font-weight: 400;

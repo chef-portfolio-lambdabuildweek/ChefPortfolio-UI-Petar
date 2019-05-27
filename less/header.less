@@ -61,6 +61,24 @@ header {
     letter-spacing: 2px;
     font-size: 1.3em;  
  }
+ h1 {
+    -webkit-animation: pulsate 3s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+    opacity: .3;
+    
+    @-webkit-keyframes pulsate {
+        0% {
+            opacity: .3;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: .3;
+        }
+    }
+     
+ }
 
 }
 
