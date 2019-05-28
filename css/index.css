@@ -305,6 +305,11 @@ header .main-image .buttons button:hover {
   width: 60.2%;
   z-index: 9999;
 }
+@media (max-width: 500px) {
+  .sticky {
+    width: 98%;
+  }
+}
 .home {
   display: flex;
   flex-direction: column;
