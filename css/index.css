@@ -382,6 +382,7 @@ header .main-image .buttons button:hover {
   border: 0.2rem solid #34495e;
   background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
   background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  overflow: hidden;
 }
 .navigation-for-about ul {
   display: flex;
@@ -517,6 +518,7 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   border: 0.2rem solid #34495e;
   background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
   background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  overflow: hidden;
 }
 .navigation-for-contact ul {
   display: flex;
