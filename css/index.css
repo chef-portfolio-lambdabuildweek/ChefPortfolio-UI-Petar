@@ -195,6 +195,7 @@ header .primary-nav {
   border: 0.2rem solid #34495e;
   background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
   background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  overflow: hidden;
 }
 header .primary-nav ul {
   display: flex;
