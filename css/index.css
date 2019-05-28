@@ -259,6 +259,11 @@ header .main-image .buttons button {
 header .main-image .buttons button:hover {
   background-color: #15cda8;
 }
+@media (max-width: 500px) {
+  header .main-image img {
+    width: 97%;
+  }
+}
 .header-content h1:first-line {
   letter-spacing: 2px;
   font-size: 1.3em;
