@@ -469,6 +469,13 @@ header .main-image .buttons button:hover {
     flex-direction: column;
   }
 }
+article {
+  padding: 2.1rem;
+}
+article p {
+  padding: 1.2rem;
+  line-height: 1.5;
+}
 footer .row-footer {
   display: flex;
   justify-content: space-between;
