@@ -14,10 +14,12 @@ header {
             padding: @mediumPadding;
             font-size: @largeFontSize;
             transition: transform 1s ease-in-out 0.5s;
+            -moz-transition: -moz-transform 1s ease-in-out 0.5s;
 
 
             &:hover {
                 transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+                -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
             }
 
             a {
@@ -92,8 +94,11 @@ header {
 
     h1 {
         -webkit-animation: pulsate 3s ease-in-out;
+        -moz-animation: pulsate 3s ease-in-out;
         -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
         -webkit-animation-direction: alternate-reverse;
+        -moz-animation-direction: alternate-reverse;
 
         // opacity: .3;
 

@@ -203,9 +203,11 @@ header .primary-nav ul {
   padding: 1.2rem;
   font-size: 1.7rem;
   transition: transform 1s ease-in-out 0.5s;
+  -moz-transition: -moz-transform 1s ease-in-out 0.5s;
 }
 header .primary-nav ul:hover {
   transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+  -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
 header .primary-nav ul a {
   padding: 1.2rem;
@@ -271,8 +273,11 @@ header .main-image .buttons button:hover {
 }
 .header-content h1 {
   -webkit-animation: pulsate 3s ease-in-out;
+  -moz-animation: pulsate 3s ease-in-out;
   -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate-reverse;
+  -moz-animation-direction: alternate-reverse;
 }
 @-webkit-keyframes pulsate {
   0% {
@@ -381,9 +386,11 @@ header .main-image .buttons button:hover {
   padding: 1.2rem;
   font-size: 1.7rem;
   transition: transform 1s ease-in-out 0.5s;
+  -moz-transition: transform 1s ease-in-out 0.5s;
 }
 .navigation-for-about ul:hover {
   transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+  -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
 .navigation-for-about ul a {
   padding: 1.2rem;
@@ -441,15 +448,16 @@ header .main-image .buttons button:hover {
   opacity: 0.7;
   height: auto;
   -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
+  -moz-transform: scale(1.15);
   transform: scale(1.15);
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
+  -moz-transition: transform 0.5s, opacity 0.5s;
 }
 .section-meals .meal-photo img:hover {
   opacity: 1;
   -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
+  -moz-transform: scale(1.03);
   transform: scale(1.03);
 }
 @media (max-width: 500px) {
