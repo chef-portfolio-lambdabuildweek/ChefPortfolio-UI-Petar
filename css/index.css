@@ -270,7 +270,7 @@ header .main-image .buttons button:hover {
 }
 .header-content h1 {
   -webkit-animation: pulsate 3s ease-in-out;
-  -webkit-animation-iteration-count: 15;
+  -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate-reverse;
 }
 @-webkit-keyframes pulsate {
@@ -473,6 +473,7 @@ footer .row-footer .row-inside-of-footer .footer-nav {
 }
 footer .row-footer .row-inside-of-footer .footer-nav li a {
   padding: 1.2rem;
+  font-size: 1.2rem;
 }
 footer .row-footer .row-inside-of-footer .social-links {
   display: inline-flex;
