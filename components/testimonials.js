@@ -1,9 +1,9 @@
 class Testimonial {
   constructor(testimonial) {
     this.testimonial = testimonial;
-    this.blockquote = testimonial.querySelector('blockquote');
-    this.photo = testimonial.querySelector('.customers-photos');
-    this.cite = testimonial.querySelector('cite');
+    this.blockquote = document.querySelector('blockquote');
+    this.photo = document.querySelector('.customers-photos');
+    this.cite = document.querySelector('cite');
   }
 }
 
