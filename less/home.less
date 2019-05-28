@@ -7,13 +7,17 @@
         display: flex;
         flex-direction: column;
         padding: @mediumPadding;
-
     }
 
     .features {
         display: flex;
         justify-content: space-evenly;
         padding: @smallPadding;
+
+        @media @phone {
+            flex-wrap: wrap;
+
+        }
 
         .inside-of-features {
             padding: @smallPadding;
@@ -23,7 +27,12 @@
                 padding-top: @mediumPadding;
             }
 
+            @media @phone {
+                width: 90%;
+            }
+
         }
+
     }
 
 

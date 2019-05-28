@@ -213,6 +213,11 @@ header .primary-nav ul a {
   font-size: 1.7rem;
   font-weight: 500;
 }
+@media (max-width: 500px) {
+  header .primary-nav ul {
+    flex-direction: column;
+  }
+}
 header .primary-nav .logo img {
   border-radius: 30%;
   display: flex;
@@ -221,6 +226,12 @@ header .primary-nav .logo img {
   width: 60px;
   height: 60px;
   box-shadow: #34495e 5px 5px 7px;
+}
+@media (max-width: 500px) {
+  header .primary-nav {
+    flex-direction: column;
+    max-height: 42%;
+  }
 }
 header .main-image {
   position: relative;
@@ -268,6 +279,11 @@ header .main-image .buttons button:hover {
     opacity: 0.3;
   }
 }
+@media (max-width: 500px) {
+  .header-content {
+    padding: 1.2rem;
+  }
+}
 .call-me {
   right: 1%;
   font-weight: 400;
@@ -295,6 +311,11 @@ header .main-image .buttons button:hover {
   justify-content: space-evenly;
   padding: 0.5rem;
 }
+@media (max-width: 500px) {
+  .home .features {
+    flex-wrap: wrap;
+  }
+}
 .home .features .inside-of-features {
   padding: 0.5rem;
   width: 70%;
@@ -302,11 +323,24 @@ header .main-image .buttons button:hover {
 .home .features .inside-of-features p {
   padding-top: 1.2rem;
 }
+@media (max-width: 500px) {
+  .home .features .inside-of-features {
+    width: 90%;
+  }
+}
+.intro-to-testimonials {
+  padding: 1.2rem;
+}
 .testimonials {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 1.2rem;
+}
+@media (max-width: 500px) {
+  .testimonials {
+    flex-direction: column;
+  }
 }
 .testimonials .inside-of-testimonials {
   display: flex;
@@ -314,6 +348,12 @@ header .main-image .buttons button:hover {
   width: 35%;
   padding: 0.5rem;
   font-style: italic;
+}
+@media (max-width: 500px) {
+  .testimonials .inside-of-testimonials {
+    width: 90%;
+    padding: 1.2rem;
+  }
 }
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
@@ -401,6 +441,11 @@ footer .row-footer .row-inside-of-footer .social-links {
 }
 footer .row-footer .row-inside-of-footer .social-links li a {
   padding: 1.2rem;
+}
+@media (max-width: 500px) {
+  footer .row-footer {
+    flex-direction: column;
+  }
 }
 .copyright {
   display: flex;

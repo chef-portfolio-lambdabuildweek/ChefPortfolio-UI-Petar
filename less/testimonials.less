@@ -1,7 +1,19 @@
+
+.intro-to-testimonials {
+ padding: @mediumPadding;
+
+}
+
+
 .testimonials {
     .flex-justify-content-spaceAround();
     flex-wrap: wrap;
     padding: @mediumPadding;
+
+    @media @phone {
+        flex-direction: column;
+
+    }
 
 
     .inside-of-testimonials {
@@ -11,6 +23,11 @@
         width: 35%;
         padding: @smallPadding;
         font-style: italic;
+
+        @media @phone {
+            width: 90%;
+            padding: @mediumPadding;
+        }
 
         .customers-photos {
             border-radius: 20%;
