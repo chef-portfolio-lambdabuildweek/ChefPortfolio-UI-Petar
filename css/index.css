@@ -358,6 +358,9 @@ header .main-image .buttons button:hover {
 .testimonials .inside-of-testimonials .customers-photos {
   border-radius: 20%;
 }
+.testimonials .inside-of-testimonials blockquote {
+  padding: 1.2rem;
+}
 .navigation-for-about {
   display: flex;
   justify-content: space-around;
