@@ -14,9 +14,9 @@ async function getNews() {
 
   const main = document.querySelector('main');
 
-  json.recipes.forEach((recipe) => {
+  json.articles.forEach((article) => {
     const el = document.createElement('news-article');
-    el.recipe = recipe;
+    el.article = article;
     main.appendChild(el);
   });
 }
