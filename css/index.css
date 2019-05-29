@@ -477,6 +477,22 @@ article p {
   padding: 1.2rem;
   line-height: 1.5;
 }
+#root {
+  max-width: 900px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 1rem;
+  border: 0.2rem solid #34495e solid #34495e;
+}
+@media (max-width: 500px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
 footer .row-footer {
   display: flex;
   justify-content: space-between;
