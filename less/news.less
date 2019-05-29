@@ -1,4 +1,4 @@
-.navigation-for-contact {
+.navigation-for-news {
 
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
@@ -7,17 +7,17 @@
     background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
     overflow: hidden;
 
-
     ul {
         display: flex;
         justify-content: space-between;
         padding: @mediumPadding;
         font-size: @largeFontSize;
         transition: transform 1s ease-in-out 0.5s;
-
+        -moz-transition: transform 1s ease-in-out 0.5s;
 
         &:hover {
             transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+            -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
         }
 
         a {
@@ -30,7 +30,6 @@
 
         @media @phone {
             flex-direction: column;
-
         }
 
     }
@@ -50,65 +49,6 @@
         max-height: 42%;
     }
 
-}
-
-
-.contact-section {
-    background-image: url();
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    span {
-        background-color: @color-for-contact-form;
-        color: #ddd;
-    }
 
 }
 
-
-.border {
-    width: 10%;
-    height: 10px;
-    background: @dark-sky;
-    margin: 2.5% auto;
-}
-
-.contact-form {
-    max-width: 600px;
-    margin: auto;
-    padding: 0 @smallPadding;
-    overflow: hidden;
-}
-
-.contact-form-text {
-    display: flex;
-    width: 100%;
-    margin: 2.5% 0;
-    border: 0;
-    background: @color-for-contact-form;
-    padding: @bigPadding;
-    outline: none;
-    transition: 0.5s;
-}
-
-.contact-form-text:focus {
-    box-shadow: 0 0 10px 4px @dark-sky;
-}
-
-.contact-form-btn {
-    float: right;
-    border: 0;
-    background: #34495e;
-    color: #fff;
-    padding: @smallPadding @bigPadding;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-
-    &:hover {
-        background: #2980b9;
-    }
-
-}

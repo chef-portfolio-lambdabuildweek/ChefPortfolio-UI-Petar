@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +11,9 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet" />
     <script src="scripts.js" async></script>
+    <script src="components/testimonials.js" async></script>
+    <script src="components/features.js" async></script>
+    
 </head>
 
 <body>
@@ -22,17 +24,16 @@
                     <img src="img/logo.jpg" alt="logo" />
                 </div>
                 <ul>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="index.html">Testimonials</a>
-                    <a href="contact.html">Contact</a>
+                    <a class href="index.html">Home</a>
+                    <a class href="about.html">About</a>
+                    <a class="section-link" href="#">Testimonials</a>
+                    <a class href="contact.html">Contact</a>
+                    <a href="news.html">News</a>
                     <li class="call-me"><a href="#"></a>Hire me!</li>
                 </ul>
             </nav>
-
             <div class="header-content">
-
-                <div class="main-image"><img src="img/chef.jpg" width="900px" alt="">
+                <div class="main-image"><img src="img/chef.jpg" width="1000px" alt="master chef">
                     <div class="buttons">
                         <button>I am hungry</button>
                         <button>Sign up</button>
@@ -49,7 +50,6 @@
         thinking about some intro about robotic kitchen, maybe some video or something, open for suggestions -->
 
         <section class="home">
-
             <div class="intro-to-features">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p>
@@ -59,7 +59,7 @@
             </div>
             <div class="features">
                 <div class="inside-of-features">
-                    <i class="fas fa-robot fa-5x"></i>
+                    <i class="fas fa-robot fa-5x"></i><br><br>
                     <h3>Up to 365 days/year, 7 days/weak, 24 hours/day</h3>
                     <p>
                         Never cook again! I really mean that. I have created the world’s
@@ -70,7 +70,7 @@
                     </p>
                 </div>
                 <div class="inside-of-features">
-                    <i class="fas fa-clock fa-5x"></i>
+                    <i class="fas fa-clock fa-5x"></i><br><br>
                     <h3>Ready in 3 minutes</h3>
                     <p>
                         You're only 3 minutes away from your delicious and super healthy
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div class="inside-of-features">
-                    <i class="fas fa-carrot fa-5x"></i>
+                    <i class="fas fa-carrot fa-5x"></i><br><br>
                     <h3>100% organic</h3>
                     <p>
                         I have my own plantation,vegetables are fresh, organic and local.
@@ -87,12 +87,21 @@
                     </p>
                 </div>
                 <div class="inside-of-features">
-                    <i class="fab fa-first-order fa-5x"></i>
+                    <i class="fab fa-first-order fa-5x"></i><br><br>
                     <h3>Order anything</h3>
                     <p>
                         I won't limit your creativity, which means you can order whatever
                         you feel like. You can also choose from our menu containing over
                         1000 delicious meals. Only limit is your imagination!
+                    </p>
+                </div>
+                <div class="inside-of-features">
+                    <i class="fas fa-carrot fa-5x"></i><br><br>
+                    <h3>100% organic</h3>
+                    <p>
+                        I have my own plantation,vegetables are fresh, organic and local.
+                        Animals are raised without added hormones or antibiotics. Good for
+                        your health, the environment, and it also tastes better!
                     </p>
                 </div>
             </div>
@@ -107,19 +116,19 @@
 
         </section>
         <div class="intro-to-testimonials">
-            <h3>Mine customers can't live without me</h3>
-        </div><br>
+            <h3>My customers can't live without me</h3>
+        </div>
 
         <section class="testimonials">
             <div class="inside-of-testimonials">
                 <blockquote>
                     Master Chef is just awesome! I just launched a startup which
-                    leaves me with no time for cooking because I work basically work
+                    leaves me with no time for cooking because I work basically
                     20 hours a day and sleep like 4 hours, so Master Cheff is a
                     life-saver. Now that I got used to it, I couldn't live without my
                     daily meals!
                 </blockquote>
-                <img class="customers-photos" src="img/Tesla.jpg" width="150px" alt="Nikola Tesla" />
+                <img class="customers-photos" src="img/Tesla2.jpg" width="170" height="150" alt="Nikola Tesla" />
                 <cite>Nikola Tesla</cite>
             </div>
             <div class="inside-of-testimonials">
@@ -131,14 +140,22 @@
                 <img class="customers-photos" src="img/arwen.jpg" width="140px" alt="Customer 2 photo" />
                 <cite>Lady Arwen</cite>
             </div>
-
             <div class="inside-of-testimonials">
                 <blockquote>I was looking for a quick and easy food in Zihuatanejo. I tried a
                     lot of them and ended up ordering only from Master Cheff and his
                     robotic kitchen. Best food in both west and east coast. Keep up
                     the great work!
                 </blockquote>
-                <img class="customers-photos" src="img/chaplin.jpg" width="150px" alt="Customer 3 photo" />
+                <img class="customers-photos" src="img/chaplin.jpg" width="160px" alt="Customer 3 photo" />
+                <cite>Charlie Chaplin</cite>
+            </div>
+            <div class="inside-of-testimonials">
+                <blockquote>I was looking for a quick and easy food in Zihuatanejo. I tried a
+                    lot of them and ended up ordering only from Master Cheff and his
+                    robotic kitchen. Best food in both west and east coast. Keep up
+                    the great work!
+                </blockquote>
+                <img class="customers-photos" src="img/chaplin.jpg" width="160px" alt="Customer 3 photo" />
                 <cite>Charlie Chaplin</cite>
             </div>
         </section>
@@ -170,5 +187,4 @@
         </div>
     </div>
 </body>
-
 </html>

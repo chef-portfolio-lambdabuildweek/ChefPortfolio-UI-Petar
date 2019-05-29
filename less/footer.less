@@ -14,6 +14,7 @@ footer {
 
         & li a {
           padding: @mediumPadding;
+          font-size: @mediumFontSize;
         }
       }
 
@@ -25,6 +26,10 @@ footer {
           padding: @mediumPadding;
         }
       }
+    }
+
+    @media @phone {
+      flex-direction: column;
     }
 
   }
