@@ -3,10 +3,9 @@
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
     border: @myBorder;
-    background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-    background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+    background: -webkit-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
+    background: -moz-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
     overflow: hidden;
-
 
     ul {
         display: flex;
@@ -26,11 +25,11 @@
             text-transform: uppercase;
             font-size: @largeFontSize;
             font-weight: 500;
+            color: @home-color;
         }
 
         @media @phone {
             flex-direction: column;
-
         }
 
     }
@@ -52,10 +51,7 @@
 
 }
 
-
 .contact-section {
-    background-image: url();
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +60,6 @@
         background-color: @color-for-contact-form;
         color: #ddd;
     }
-
 }
 
 

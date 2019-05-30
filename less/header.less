@@ -1,10 +1,15 @@
 header {
     .primary-nav {
+
+        @media @phone {
+            position: static;
+        }
+
         .flex-justify-content-spaceAround();
         padding: @smallPadding;
         border: @myBorder;
-        background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-        background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+        background: -webkit-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
+        background: -moz-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
         overflow: hidden;
 
         ul {
@@ -14,7 +19,6 @@ header {
             font-size: @largeFontSize;
             transition: transform 1s ease-in-out 0.5s;
             -moz-transition: -moz-transform 1s ease-in-out 0.5s;
-
 
             &:hover {
                 transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
@@ -27,11 +31,11 @@ header {
                 text-transform: uppercase;
                 font-size: @largeFontSize;
                 font-weight: 500;
+                color: @home-color;
             }
 
             @media @phone {
                 flex-direction: column;
-
             }
         }
 
@@ -50,8 +54,6 @@ header {
             max-height: 42%;
 
         }
-
-
 
     }
 
@@ -73,9 +75,15 @@ header {
 
 
         img {
+
+            @media @tablet {
+                width: 99%;
+            }
+
             @media @phone {
                 width: 97%;
             }
+
         }
 
     }
@@ -97,8 +105,6 @@ header {
         -webkit-animation-direction: alternate-reverse;
         -moz-animation-direction: alternate-reverse;
 
-        // opacity: .3;
-
         @-webkit-keyframes pulsate {
             0% {
                 opacity: .3;
@@ -112,7 +118,10 @@ header {
                 opacity: .3;
             }
         }
+    }
 
+    @media @tablet {
+        padding: @mediumPadding;
     }
 
     @media @phone {
@@ -121,24 +130,18 @@ header {
 
 }
 
-
-
 .call-me {
     right: 1%;
     font-weight: 400;
     display: none;
+    color: @home-color;
 }
 
 
 .sticky {
     position: fixed;
-    // top: 0;
-    // left: 0;
-    width: 60.2%;
+    max-width: @maxWidthWebsite;
     z-index: 9999;
+    width: 100%;
 
-    @media @phone {
-        width: 98%;
-
-    }
 }

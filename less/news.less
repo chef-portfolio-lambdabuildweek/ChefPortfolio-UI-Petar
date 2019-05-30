@@ -3,8 +3,8 @@
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
     border: @myBorder;
-    background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-    background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+    background: -webkit-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
+    background: -moz-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
     overflow: hidden;
 
     ul {
@@ -26,6 +26,7 @@
             text-transform: uppercase;
             font-size: @largeFontSize;
             font-weight: 500;
+            color: @home-color;
         }
 
         @media @phone {
@@ -49,6 +50,42 @@
         max-height: 42%;
     }
 
-
 }
 
+
+main {
+    background-color: @home-color;
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+
+    @media @tablet {
+        width: 98%;
+    }
+
+    .an-article {
+        margin: 2%;
+        padding: @bigPadding;
+        border: @myBorder;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .image-container img {
+            padding: @mediumPadding;
+            width: 85%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 1.7rem;
+        }
+
+    }
+}

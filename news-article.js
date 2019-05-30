@@ -81,15 +81,15 @@ class NewsArticle extends HTMLElement {
   //     });
   //   }
 
-  set recipe(recipe) {
+  set article(article) {
     this.innerHTML = `
            <div class="an-article">  
-            <a href="${recipe.f2f_url}">
-              <h2>${recipe.title}</h2>
+            <a href="${article.url}">
+              <h2>${article.title}</h2>
               <div class="image-container">
-              <img src="${recipe.image_url ? recipe.image_url : ''}">
+              <img src="${article.urlToImage ? article.urlToImage : ''}">
               </div>
-              <p>${recipe.publisher}</p>
+              <p>${article.description}</p>
             </a>
             </div>`;
   }

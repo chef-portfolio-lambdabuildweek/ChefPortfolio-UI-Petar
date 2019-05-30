@@ -3,8 +3,8 @@
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
     border: @myBorder;
-    background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-    background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+    background: -webkit-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
+    background: -moz-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
     overflow: hidden;
 
     ul {
@@ -26,6 +26,7 @@
             text-transform: uppercase;
             font-size: @largeFontSize;
             font-weight: 500;
+            color: @home-color;
         }
 
         @media @phone {
@@ -49,7 +50,12 @@
         max-height: 42%;
     }
 
+}
 
+
+.about-the-robot {
+    background-color: @home-color;
+    padding: @mediumPadding;
 }
 
 
@@ -59,9 +65,12 @@
     .meals-showcase1 {
         display: flex;
 
+        @media @tablet {
+            .flex-direction-column-wrap();
+        }
+
         @media @phone {
-            flex-direction: column;
-            flex-wrap: wrap;
+            .flex-direction-column-wrap();
         }
     }
 
@@ -69,12 +78,14 @@
     .meals-showcase2 {
         display: flex;
 
+        @media @tablet {
+            .flex-direction-column-wrap();
+        }
+
         @media @phone {
-            flex-direction: column;
-            flex-wrap: wrap;
+            .flex-direction-column-wrap();
         }
     }
-
 
     .meal-photo {
         overflow: hidden;
@@ -90,6 +101,15 @@
         -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
         transition: transform 0.5s, opacity 0.5s;
         -moz-transition: transform 0.5s, opacity 0.5s;
+
+        @media @tablet {
+            width: 95%;
+        }
+
+        @media @phone {
+            width: 95%;
+        }
+
     }
 
     .meal-photo img:hover {
@@ -99,9 +119,12 @@
         transform: scale(1.03);
     }
 
+    @media @tablet {
+        .flex-direction-column-wrap();
+    }
+
     @media @phone {
-        flex-wrap: wrap;
-        flex-direction: column;
+        .flex-direction-column-wrap();
     }
 
 }
@@ -109,54 +132,11 @@
 
 article {
     padding: @bigPadding;
+    background-color: @home-color;
 
     p {
         padding: @mediumPadding;
         line-height: 1.5;
     }
-
-}
-
-
-main {
-
-    display: flex;
-    flex-direction: column;
-    width: 58%;
-
-
-    .an-article {
-
-        margin: 2%;
-        padding: @bigPadding;
-        border: @myBorder;
-        display: flex;
-        flex-direction: column;
-
-
-        h2 {
-            font-size: 2.5rem;
-        }
-
-
-        .image-container img {
-            padding: @mediumPadding;
-            width: 80%;
-        }
-
-        a {
-            text-decoration: none;
-
-        }
-
-
-        p {
-            font-size: 1.7rem;
-        }
-
-
-    }
-
-
 
 }
