@@ -15,9 +15,9 @@
         transition: transform 1s ease-in-out 0.5s;
 
 
-        &:hover {
-            transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-        }
+        // &:hover {
+        //     transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
+        // }
 
         a {
             padding: @mediumPadding;
@@ -26,6 +26,11 @@
             font-size: @largeFontSize;
             font-weight: 500;
             color: @home-color;
+
+            &:hover {
+                color:@pastel-orange;
+                transform: scale(1.1);
+            }
         }
 
         @media @phone {

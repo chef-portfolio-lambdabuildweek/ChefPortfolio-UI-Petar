@@ -207,12 +207,6 @@ header .primary-nav ul {
   justify-content: space-between;
   padding: 1.2rem;
   font-size: 1.7rem;
-  transition: transform 1s ease-in-out 0.5s;
-  -moz-transition: -moz-transform 1s ease-in-out 0.5s;
-}
-header .primary-nav ul:hover {
-  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-  -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
 header .primary-nav ul a {
   padding: 1.2rem;
@@ -221,6 +215,10 @@ header .primary-nav ul a {
   font-size: 1.7rem;
   font-weight: 500;
   color: #f2f2f3;
+}
+header .primary-nav ul a:hover {
+  color: #ffb347;
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   header .primary-nav ul {
@@ -410,12 +408,6 @@ header .main-image .buttons button:hover {
   justify-content: space-between;
   padding: 1.2rem;
   font-size: 1.7rem;
-  transition: transform 1s ease-in-out 0.5s;
-  -moz-transition: transform 1s ease-in-out 0.5s;
-}
-.navigation-for-about ul:hover {
-  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-  -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
 }
 .navigation-for-about ul a {
   padding: 1.2rem;
@@ -424,6 +416,10 @@ header .main-image .buttons button:hover {
   font-size: 1.7rem;
   font-weight: 500;
   color: #f2f2f3;
+}
+.navigation-for-about ul a:hover {
+  color: #ffb347;
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   .navigation-for-about ul {
@@ -582,9 +578,6 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   font-size: 1.7rem;
   transition: transform 1s ease-in-out 0.5s;
 }
-.navigation-for-contact ul:hover {
-  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-}
 .navigation-for-contact ul a {
   padding: 1.2rem;
   text-decoration: none;
@@ -592,6 +585,10 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   font-size: 1.7rem;
   font-weight: 500;
   color: #f2f2f3;
+}
+.navigation-for-contact ul a:hover {
+  color: #ffb347;
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   .navigation-for-contact ul {
@@ -677,10 +674,6 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   transition: transform 1s ease-in-out 0.5s;
   -moz-transition: transform 1s ease-in-out 0.5s;
 }
-.navigation-for-news ul:hover {
-  transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-  -moz-transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
-}
 .navigation-for-news ul a {
   padding: 1.2rem;
   text-decoration: none;
@@ -688,6 +681,10 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   font-size: 1.7rem;
   font-weight: 500;
   color: #f2f2f3;
+}
+.navigation-for-news ul a:hover {
+  color: #ffb347;
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   .navigation-for-news ul {
