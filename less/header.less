@@ -73,9 +73,15 @@ header {
 
 
         img {
+
+            @media @tablet {
+                width: 99%;
+            }
+
             @media @phone {
                 width: 97%;
             }
+     
         }
 
     }
@@ -115,6 +121,10 @@ header {
 
     }
 
+    @media @tablet {
+        padding: @mediumPadding;
+    }
+
     @media @phone {
         padding: @mediumPadding;
     }
@@ -136,6 +146,10 @@ header {
     // left: 0;
     width: 60.2%;
     z-index: 9999;
+
+    @media @tablet {
+        width: 98%;
+    }
 
     @media @phone {
         width: 98%;

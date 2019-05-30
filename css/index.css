@@ -262,6 +262,11 @@ header .main-image .buttons button {
 header .main-image .buttons button:hover {
   background-color: #15cda8;
 }
+@media (max-width: 800px) {
+  header .main-image img {
+    width: 99%;
+  }
+}
 @media (max-width: 500px) {
   header .main-image img {
     width: 97%;
@@ -290,6 +295,11 @@ header .main-image .buttons button:hover {
     opacity: 0.3;
   }
 }
+@media (max-width: 800px) {
+  .header-content {
+    padding: 1.2rem;
+  }
+}
 @media (max-width: 500px) {
   .header-content {
     padding: 1.2rem;
@@ -304,6 +314,11 @@ header .main-image .buttons button:hover {
   position: fixed;
   width: 60.2%;
   z-index: 9999;
+}
+@media (max-width: 800px) {
+  .sticky {
+    width: 98%;
+  }
 }
 @media (max-width: 500px) {
   .sticky {
@@ -429,6 +444,12 @@ header .main-image .buttons button:hover {
 .section-meals .meals-showcase1 {
   display: flex;
 }
+@media (max-width: 800px) {
+  .section-meals .meals-showcase1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 500px) {
   .section-meals .meals-showcase1 {
     flex-direction: column;
@@ -437,6 +458,12 @@ header .main-image .buttons button:hover {
 }
 .section-meals .meals-showcase2 {
   display: flex;
+}
+@media (max-width: 800px) {
+  .section-meals .meals-showcase2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 500px) {
   .section-meals .meals-showcase2 {
@@ -458,16 +485,32 @@ header .main-image .buttons button:hover {
   transition: transform 0.5s, opacity 0.5s;
   -moz-transition: transform 0.5s, opacity 0.5s;
 }
+@media (max-width: 800px) {
+  .section-meals .meal-photo img {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .section-meals .meal-photo img {
+    width: 95%;
+  }
+}
 .section-meals .meal-photo img:hover {
   opacity: 1;
   -webkit-transform: scale(1.03);
   -moz-transform: scale(1.03);
   transform: scale(1.03);
 }
+@media (max-width: 800px) {
+  .section-meals {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 500px) {
   .section-meals {
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 article {
@@ -657,7 +700,12 @@ footer .row-footer .row-inside-of-footer .social-links li a {
 main {
   display: flex;
   flex-direction: column;
-  width: 58%;
+  width: 78%;
+}
+@media (max-width: 800px) {
+  main {
+    width: 98%;
+  }
 }
 main .an-article {
   margin: 2%;
@@ -671,7 +719,7 @@ main .an-article h2 {
 }
 main .an-article .image-container img {
   padding: 1.2rem;
-  width: 80%;
+  width: 85%;
 }
 main .an-article a {
   text-decoration: none;
