@@ -15,9 +15,12 @@
         justify-content: space-evenly;
         padding: @smallPadding;
 
+        @media @tablet{
+            flex-wrap: wrap;
+        }
         @media @phone {
             flex-wrap: wrap;
-
+            padding: @smallPadding;
         }
 
         .inside-of-features {

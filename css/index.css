@@ -332,9 +332,15 @@ header .main-image .buttons button:hover {
   justify-content: space-evenly;
   padding: 0.5rem;
 }
+@media (max-width: 800px) {
+  .home .features {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 500px) {
   .home .features {
     flex-wrap: wrap;
+    padding: 0.5rem;
   }
 }
 .home .features .inside-of-features {
