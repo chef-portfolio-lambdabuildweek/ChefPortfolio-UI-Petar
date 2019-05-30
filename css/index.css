@@ -193,9 +193,14 @@ header .primary-nav {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #171A1B, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #171A1B, #00467F);
   overflow: hidden;
+}
+@media (max-width: 500px) {
+  header .primary-nav {
+    position: static;
+  }
 }
 header .primary-nav ul {
   display: flex;
@@ -215,6 +220,7 @@ header .primary-nav ul a {
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: 500;
+  color: #f2f2f3;
 }
 @media (max-width: 500px) {
   header .primary-nav ul {
@@ -309,6 +315,7 @@ header .main-image .buttons button:hover {
   right: 1%;
   font-weight: 400;
   display: none;
+  color: #f2f2f3;
 }
 .sticky {
   position: fixed;
@@ -394,8 +401,8 @@ header .main-image .buttons button:hover {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #171A1B, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #171A1B, #00467F);
   overflow: hidden;
 }
 .navigation-for-about ul {
@@ -416,6 +423,7 @@ header .main-image .buttons button:hover {
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: 500;
+  color: #f2f2f3;
 }
 @media (max-width: 500px) {
   .navigation-for-about ul {
@@ -563,8 +571,8 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #171A1B, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #171A1B, #00467F);
   overflow: hidden;
 }
 .navigation-for-contact ul {
@@ -583,6 +591,7 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: 500;
+  color: #f2f2f3;
 }
 @media (max-width: 500px) {
   .navigation-for-contact ul {
@@ -656,8 +665,8 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #171A1B, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #171A1B, #00467F);
   overflow: hidden;
 }
 .navigation-for-news ul {
@@ -678,6 +687,7 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: 500;
+  color: #f2f2f3;
 }
 @media (max-width: 500px) {
   .navigation-for-news ul {

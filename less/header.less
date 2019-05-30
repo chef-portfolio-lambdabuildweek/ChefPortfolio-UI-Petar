@@ -1,10 +1,15 @@
 header {
     .primary-nav {
+
+        @media @phone {
+            position: static;
+        }
+
         .flex-justify-content-spaceAround();
         padding: @smallPadding;
         border: @myBorder;
-        background: -webkit-radial-gradient(bottom, ellipse, @home-color, @radial-color);
-        background: -moz-radial-gradient(bottom, ellipse, @home-color, @radial-color);
+        background: -webkit-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
+        background: -moz-radial-gradient(bottom, ellipse, @lighter-black, @radial-color);
         overflow: hidden;
 
         ul {
@@ -26,11 +31,11 @@ header {
                 text-transform: uppercase;
                 font-size: @largeFontSize;
                 font-weight: 500;
+                color: @home-color;
             }
 
             @media @phone {
                 flex-direction: column;
-
             }
         }
 
@@ -129,6 +134,7 @@ header {
     right: 1%;
     font-weight: 400;
     display: none;
+    color: @home-color;
 }
 
 
@@ -137,4 +143,5 @@ header {
     max-width: @maxWidthWebsite;
     z-index: 9999;
     width: 100%;
+
 }

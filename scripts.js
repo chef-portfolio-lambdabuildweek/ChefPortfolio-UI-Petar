@@ -33,7 +33,6 @@ function smoothScroll(param1, duration) {
     if (timeElapsed < duration) requestAnimationFrame(animation);
   }
 
-
   function ease(t, b, c, d) {
     t /= d / 2;
     if (t < 1) return c / 2 * t * t * t + b;
