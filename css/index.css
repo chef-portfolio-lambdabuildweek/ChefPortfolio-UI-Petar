@@ -193,8 +193,8 @@ header .primary-nav {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
   overflow: hidden;
 }
 header .primary-nav ul {
@@ -312,20 +312,12 @@ header .main-image .buttons button:hover {
 }
 .sticky {
   position: fixed;
-  width: 60.2%;
+  max-width: 1000px;
   z-index: 9999;
-}
-@media (max-width: 800px) {
-  .sticky {
-    width: 98%;
-  }
-}
-@media (max-width: 500px) {
-  .sticky {
-    width: 98%;
-  }
+  width: 100%;
 }
 .home {
+  background-color: #f2f2f3;
   display: flex;
   flex-direction: column;
   padding: 1.2rem;
@@ -365,6 +357,7 @@ header .main-image .buttons button:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 1.2rem;
+  background-color: #f7f8ec;
 }
 @media (max-width: 500px) {
   .testimonials {
@@ -395,8 +388,8 @@ header .main-image .buttons button:hover {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
   overflow: hidden;
 }
 .navigation-for-about ul {
@@ -437,6 +430,10 @@ header .main-image .buttons button:hover {
     flex-direction: column;
     max-height: 42%;
   }
+}
+.about-the-robot {
+  background-color: #f2f2f3;
+  padding: 1.2rem;
 }
 .section-meals {
   padding: 1.2rem;
@@ -515,6 +512,7 @@ header .main-image .buttons button:hover {
 }
 article {
   padding: 2.1rem;
+  background-color: #f2f2f3;
 }
 article p {
   padding: 1.2rem;
@@ -559,8 +557,8 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
   overflow: hidden;
 }
 .navigation-for-contact ul {
@@ -601,8 +599,6 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   }
 }
 .contact-section {
-  background-image: url();
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -654,8 +650,8 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   justify-content: space-around;
   padding: 0.5rem;
   border: 0.2rem solid #34495e;
-  background: -webkit-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
-  background: -moz-radial-gradient(bottom, ellipse, #A5CC82, #00467F);
+  background: -webkit-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
+  background: -moz-radial-gradient(bottom, ellipse, #f2f2f3, #00467F);
   overflow: hidden;
 }
 .navigation-for-news ul {
@@ -698,6 +694,7 @@ footer .row-footer .row-inside-of-footer .social-links li a {
   }
 }
 main {
+  background-color: #f2f2f3;
   display: flex;
   flex-direction: column;
   width: 78%;

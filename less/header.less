@@ -3,8 +3,8 @@ header {
         .flex-justify-content-spaceAround();
         padding: @smallPadding;
         border: @myBorder;
-        background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-        background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+        background: -webkit-radial-gradient(bottom, ellipse, @home-color, @radial-color);
+        background: -moz-radial-gradient(bottom, ellipse, @home-color, @radial-color);
         overflow: hidden;
 
         ul {
@@ -14,7 +14,6 @@ header {
             font-size: @largeFontSize;
             transition: transform 1s ease-in-out 0.5s;
             -moz-transition: -moz-transform 1s ease-in-out 0.5s;
-
 
             &:hover {
                 transform: perspective(100px) rotate3d(0, 1, 0, 360deg);
@@ -51,8 +50,6 @@ header {
 
         }
 
-
-
     }
 
     .main-image {
@@ -81,7 +78,7 @@ header {
             @media @phone {
                 width: 97%;
             }
-     
+
         }
 
     }
@@ -103,8 +100,6 @@ header {
         -webkit-animation-direction: alternate-reverse;
         -moz-animation-direction: alternate-reverse;
 
-        // opacity: .3;
-
         @-webkit-keyframes pulsate {
             0% {
                 opacity: .3;
@@ -118,7 +113,6 @@ header {
                 opacity: .3;
             }
         }
-
     }
 
     @media @tablet {
@@ -130,8 +124,6 @@ header {
     }
 
 }
-
-
 
 .call-me {
     right: 1%;
@@ -142,17 +134,7 @@ header {
 
 .sticky {
     position: fixed;
-    // top: 0;
-    // left: 0;
-    width: 60.2%;
+    max-width: @maxWidthWebsite;
     z-index: 9999;
-
-    @media @tablet {
-        width: 98%;
-    }
-
-    @media @phone {
-        width: 98%;
-
-    }
+    width: 100%;
 }

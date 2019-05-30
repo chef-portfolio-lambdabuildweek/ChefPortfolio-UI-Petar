@@ -3,10 +3,9 @@
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
     border: @myBorder;
-    background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-    background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+    background: -webkit-radial-gradient(bottom, ellipse, @home-color, @radial-color);
+    background: -moz-radial-gradient(bottom, ellipse, @home-color, @radial-color);
     overflow: hidden;
-
 
     ul {
         display: flex;
@@ -30,7 +29,6 @@
 
         @media @phone {
             flex-direction: column;
-
         }
 
     }
@@ -52,10 +50,7 @@
 
 }
 
-
 .contact-section {
-    background-image: url();
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +59,6 @@
         background-color: @color-for-contact-form;
         color: #ddd;
     }
-
 }
 
 

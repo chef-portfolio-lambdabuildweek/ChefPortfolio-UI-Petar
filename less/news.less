@@ -3,8 +3,8 @@
     .flex-justify-content-spaceAround();
     padding: @smallPadding;
     border: @myBorder;
-    background: -webkit-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
-    background: -moz-radial-gradient(bottom, ellipse, @radial-color1, @radial-color2);
+    background: -webkit-radial-gradient(bottom, ellipse, @home-color, @radial-color);
+    background: -moz-radial-gradient(bottom, ellipse, @home-color, @radial-color);
     overflow: hidden;
 
     ul {
@@ -53,7 +53,7 @@
 
 
 main {
-    
+    background-color: @home-color;
     display: flex;
     flex-direction: column;
     width: 78%;
@@ -63,13 +63,11 @@ main {
     }
 
     .an-article {
-
         margin: 2%;
         padding: @bigPadding;
         border: @myBorder;
         display: flex;
         flex-direction: column;
-
 
         h2 {
             font-size: 2.5rem;
@@ -84,11 +82,9 @@ main {
             text-decoration: none;
         }
 
-
         p {
             font-size: 1.7rem;
         }
 
     }
-
 }
