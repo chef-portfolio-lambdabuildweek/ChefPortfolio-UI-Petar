@@ -7,6 +7,8 @@ This is my first readme so lets go :)
 Fully responsive across all devices(desktop, tablet, phone), used less for compiling the css and js. Used
 js for sticky navigation, smooth scroll and using vanilla js to build my first API.
 
+Successfully implemented service worker and now you can access the content even offline
+
 pages:
 
 1.  index
@@ -31,6 +33,6 @@ At the botoom of index/home page there are testimonials of some happy customers.
 
 3. Contact page: standard contact me page but I used css styles extensively, very responsive.
 
-4. On news page I have implement API that fetches world news. I am aware that is was not required 
-is a complete stretch but I am interested in them. I used asynchronous function to fetch news from API.
-So I took json and there is array article and used for each to create component from it. 
+4. On news page I have implement API that fetches world news. I am aware that is was not required
+   is a complete stretch but I am interested in them. I used asynchronous function to fetch news from API.
+   So I took json and there is array article and used for each to create component from it.
