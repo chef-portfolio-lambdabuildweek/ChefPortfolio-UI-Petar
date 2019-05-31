@@ -14,3 +14,4 @@ class NewsArticle extends HTMLElement {
 }
 
 customElements.define('news-article', NewsArticle);
+  
