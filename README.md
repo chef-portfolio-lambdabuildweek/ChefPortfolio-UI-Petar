@@ -36,3 +36,8 @@ At the botoom of index/home page there are testimonials of some happy customers.
 4. On news page I have implement API that fetches world news. I am aware that is was not required
    is a complete stretch but I am interested in them. I used asynchronous function to fetch news from API.
    So I took json and there is array article and used for each to create component from it.
+
+
+Technical design document:
+https://docs.google.com/document/d/1GruFYRf1VkWSVixU8LGe_2iYFPxFtfrhTyyJ1MSWrcg/edit?usp=sharing
+
