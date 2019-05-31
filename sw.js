@@ -9,6 +9,8 @@ const staticAssets = [
   './WebApi.js',
   './WebApiKey.js',
   './news-article.js',
+  './img',
+  './scripts.js',
 ];
 
 self.addEventListener('install', async (e) => {
